@@ -117,6 +117,10 @@ p {
 .content {
   margin: 30px;
 }
+i {
+  padding-right: 10px;
+  color: #a88aa6;
+}
 
 @media (max-width: 900px) {
   .hero h1 {
