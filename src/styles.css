@@ -91,6 +91,28 @@ p {
   padding: 65px 50px;
   background-color: #f9f7fe;
 }
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 85px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  line-height: 27px;
+}
+
+.about-section p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.about-section-content {
+  margin: 30px;
+}
 
 @media (max-width: 900px) {
   .hero h1 {
