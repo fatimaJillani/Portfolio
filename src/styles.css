@@ -68,6 +68,7 @@ footer .social-links a {
   border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
+
 .hero {
   background: var(--background-color);
   text-align: center;
@@ -131,7 +132,7 @@ footer .social-links a {
   background-color: #f9f7fe;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 120px 20px;
 }
 .content h1 {
   font-size: 64px;
