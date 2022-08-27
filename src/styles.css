@@ -3,6 +3,7 @@ font-family: 'Poppins', sans-serif;*/
 :root {
   --primary-color: #a88aa6;
   --secondary-color: #ad9ec6e3;
+  --background-color: #f9f7fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -24,14 +25,51 @@ h6 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 48px;
+}
 p {
   font-size: 16px;
   font-weight: normal;
   line-height: 30px;
 }
 
+nav {
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(77, 77, 77, 0.175);
+  line-height: 40px;
+}
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background-color: #f9f7fe;
+  padding: 35px 90px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  padding: 10px 15px;
+  margin: 0 20px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
 .hero {
-  background: #f9f7fe;
+  background: var(--background-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -117,7 +155,8 @@ p {
 .content {
   margin: 30px;
 }
-i {
+.content-container i,
+nav i {
   padding-right: 10px;
   color: #a88aa6;
 }
@@ -125,11 +164,7 @@ i {
 .project-block {
   padding: 30px;
 }
-nav {
-  background-color: white;
-  box-shadow: 5px 5px 5px rgba(77, 77, 77, 0.175);
-  line-height: 40px;
-}
+
 @media (max-width: 900px) {
   .hero h1 {
     font-size: 44px;
